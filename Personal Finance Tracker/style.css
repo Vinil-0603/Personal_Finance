@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("img.gif");
+    background-color: #000000;
+
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #d1c1c154;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  form .form-group {
+    margin-bottom: 10px;
+  }
+
+  form label {
+    display: block;
+    font-weight: bold;
+  }
+
+  form input,
+  form select {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #transactions-list {
+    margin-top: 20px;
+  }
+
+  #transactions-list h2 {
+    margin-bottom: 10px;
+  }
+
+  #transactions li {
+    list-style: none;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgb(252, 250, 250);
+  }
+
+  #transactions li.income {
+    border-left: 5px solid #4CAF50;
+  }
+
+  #transactions li.expense {
+    border-left: 5px solid #F44336;
+  }
+
+  #balance {
+    margin-top: 20px;
+  }
+
+  #balance h2 {
+    margin-bottom: 10px;
+  }
+
+  #balance-amount {
+    font-size: 24px;
+    font-weight: bold;
+  }
