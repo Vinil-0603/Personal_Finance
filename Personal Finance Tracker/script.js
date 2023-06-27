@@ -71,7 +71,7 @@ function updateBalance() {
     .reduce((total, transaction) => total + transaction.amount, 0);
 
   const balance = income - expenses;
-  balanceAmount.textContent = balance.toFixed(2);
+  balanceAmount.textContent = `₹${balance.toFixed(2)}`;
 }
 
 // Load transactions from storage if available
